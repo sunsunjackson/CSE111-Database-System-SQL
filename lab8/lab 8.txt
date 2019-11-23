@@ -1,0 +1,79 @@
+3)From customer to customer_index: [22:21:02] Query finished in 0.063 second(s). Rows affected: 1500
+From
+From customer to customer_noindex: [22:33:43] Query finished in 0.071 second(s). Rows affected: 1500
+The difference of the slightly longer execution time might be due to a longer table name.
+
+From supplier to supplier_index: [22:24:07] Query finished in 0.054 second(s). Rows affected: 100
+From supplier to supplier_noindex: [22:34:15] Query finished in 0.018 second(s). Rows affected: 100
+The difference of the slightly longer execution time might be due to a shorter table name.
+
+From orders to orders_index: [22:27:04] Query finished in 0.157 second(s). Rows affected: 15000
+From orders to orders_noindex: [22:34:47] Query finished in 0.097 second(s). Rows affected: 15000
+The difference of the slightly longer execution time might be due to a shorter table name.
+
+From lineitem to lineitem_index: [22:32:50] Query finished in 0.354 second(s). Rows affected: 60175
+From lineitem to lineitem_noindex: [22:35:28] Query finished in 0.235 second(s). Rows affected: 60175
+The difference of the slightly longer execution time might be due to a shorter table name.
+
+4)customermktsegmentindex on cmktsegment attribute from customerindextable:[22:37:48] Query finished in 0.052 second(s). Rows affected: 1
+
+lineitemreturnflagindex on lreturnflag attribute from lineitemindextable: [22:40:20] Query finished in 0.050 second(s). Rows affected: 1
+
+orderspriorityindex on oorderpriority attribute from ordersindextable: [22:42:16] Query finished in 0.054 second(s). Rows affected: 1
+
+
+5)
+1:[22:46:10] Query finished in 0.003 second(s).
+[22:46:23] Query finished in 0.003 second(s).
+
+2:[22:50:18] Query finished in 0.004 second(s).
+[22:50:40] Query finished in 0.004 second(s).
+
+3:[22:51:26] Query finished in 0.002 second(s).
+[22:51:54] Query finished in 0.008 second(s).
+
+4:[22:52:28] Query finished in 0.150 second(s).
+[22:52:44] Query finished in 0.066 second(s).
+
+5:[22:53:36] Query finished in 0.003 second(s).
+[22:53:45] Query finished in 0.005 second(s).
+
+6:[22:54:59] Query finished in 0.005 second(s).
+[22:55:10] Query finished in 0.013 second(s).
+
+7:[22:56:24] Query finished in 0.154 second(s).
+[22:56:38] Query finished in 0.113 second(s).
+
+8:[22:57:18] Query finished in 0.002 second(s).
+[22:57:25] Query finished in 0.001 second(s).
+
+9:[22:58:08] Query finished in 0.003 second(s).
+[22:58:16] Query finished in 0.007 second(s).
+
+10:[22:59:04] Query finished in 0.041 second(s).
+[22:59:13] Query finished in 0.028 second(s).
+
+11:[23:00:00] Query finished in 0.098 second(s).
+[23:00:14] Query finished in 0.097 second(s).
+
+12:[23:00:55] Query finished in 0.063 second(s).
+[23:01:07] Query finished in 0.060 second(s).
+
+13:[23:01:42] Query finished in 0.002 second(s).
+[23:01:49] Query finished in 0.006 second(s).
+
+14:[23:02:28] Query finished in 0.013 second(s).
+[23:02:39] Query finished in 0.025 second(s).
+
+15:[23:03:23] Query finished in 0.098 second(s).
+[23:03:37] Query finished in 0.109 second(s).
+
+All the execution times above are only slightly different.
+6)[23:07:23] Query finished in 0.437 second(s). Rows affected: 60177
+[23:07:37] Query finished in 0.324 second(s). Rows affected: 60175
+
+7)[23:08:57] Query finished in 0.057 second(s). Rows affected: 101
+[23:09:07] Query finished in 0.046 second(s). Rows affected: 100
+
+
+All the execution times above are only slightly different.
